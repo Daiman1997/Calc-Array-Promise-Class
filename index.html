@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Calculate</h1>
+        <a href="#" id="clear" class="clear">Clear</a>
+        <button class="clear" id="opa">Animation</button>
+        <button class="clear" id="starP">Start</button>
+    </div>
+    <div class="wrapper">
+        <div class="display">
+            <input class="display__write" type="text" readonly>
+        </div>
+        <div class="panel">
+            <div class="row">
+                <div id="number" class="block" id="n1"><a href="#">1</a></div>
+                <div id="number" class="block"><a href="#">2</a></div>
+                <div id="number" class="block"><a href="#">3</a></div>
+                <div id="number" class="block"><a href="#">*</a></div>
+            </div>
+
+            <div  class="row">
+                <div id="number" class="block"><a href="#">4</a></div>
+                <div id="number" class="block"><a href="#">5</a></div>
+                <div id="number" class="block"><a href="#">6</a></div>
+                <div id="number" class="block"><a href="#">/</a></div>
+            </div>
+
+            <div  class="row">
+                <div id="number" class="block"><a href="#">7</a></div>
+                <div id="number" class="block"><a href="#">8</a></div>
+                <div id="number" class="block"><a href="#">9</a></div>
+                <div id="number" class="block"><a href="#">+</a></div>
+            </div>
+
+            <div  class="row">
+                <div id="number" class="block"><a href="#">.</a></div>
+                <div id="number" class="block"><a href="#">0</a></div>
+                <div class="block equals"><a href="#">=</a></div>
+                <div id="number" class="block"><a href="#">-</a></div>
+            </div>
+            <a href="#" class="del">Del</a>
+            
+        </div>
+    </div>
+
+    <div style="display: flex;">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+
+    
+    <script src="script/script.js" ></script>
+</body>
+</html>
